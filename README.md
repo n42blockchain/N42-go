@@ -15,9 +15,12 @@ For building the latest alpha release (this will be suitable for most users just
 
 ### Most Linux systems and macOS
 
-Since n42 is written in Go, you'll need the latest version of Go installed to build it from source code.
-Instructions for installing Go are available at the [Go installation page](https://golang.org/doc/install) and necessary bundles can be downloaded from the [Go download page](https://golang.org/dl/).
-The repository should be cloned to a local environment. Once cloned, running the command `make n42` configures everything for a temporary build and then cleans up afterward. Please note that this build method is only compatible with UNIX-like operating systems.
+To build N42 from source, you'll need the latest version of Go installed, as N42 is written in Go.  
+You can find installation instructions on the [Go installation page](https://golang.org/doc/install), and download the required bundles from the [Go download page](https://golang.org/dl/).  
+Clone the repository to your local environment. After cloning, run `make n42` to configure everything for a temporary build, which will automatically clean up afterward.  
+
+**Note:** This build method is only supported on UNIX-like operating systems.
+
 ```sh
 git clone https://github.com/N42world/n42.git
 cd n42
