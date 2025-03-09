@@ -44,9 +44,17 @@ make n42
 ./build/bin/n42
 ```
 
+
+```sh
+git clone https://github.com/N42world/n42.git
+cd n42
+make n42
+./build/bin/n42
+```
+
 ### Windows
 
-Windows users may run n42 in 3 possible ways:
+Windows users may run N42 in three ways:
 
 * Build executable binaries natively for Windows using [Chocolatey package manager](https://chocolatey.org/)
 * Use Docker :  see [docker-compose.yml](./docker-compose.yml)
