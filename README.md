@@ -1,4 +1,5 @@
-# N42  
+# N42 Blockchain
+
 N42 (N) is an implementation of a public blockchain on the efficiency frontier, written in Go.
 
 **Disclaimer: This software is currently a tech preview. We will do our best to keep it stable and avoid breaking changes, but we make no guarantees. **
