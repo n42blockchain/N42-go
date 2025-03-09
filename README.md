@@ -16,11 +16,13 @@ With its modular and sharded architecture, N42 provides advanced transaction thr
 
 **Disclaimer:** This software is currently a tech preview. We will do our best to keep it stable and avoid breaking changes, but we make no guarantees.
 
-## System Requirements  
 
-* For an Full node : ≥ 200 GB of storage space (SSD or NVMe recommended; HDD is not recommended).
+## System Requirements
 
-RAM: >=16GB, 64-bit architecture, [Golang version >= 1.19](https://golang.org/doc/install)
+- **Storage**: ≥ 200 GB (SSD or NVMe recommended; HDD not recommended)
+- **Memory**: ≥ 16 GB RAM
+- **CPU**: 64-bit architecture
+- **Go Version**: [≥ 1.19](https://golang.org/doc/install)
 
 
 ## Build from source code
