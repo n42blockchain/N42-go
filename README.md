@@ -82,18 +82,17 @@ N42 includes one main executable located in the `cmd` directory:
 | **`n42`** | Main CLI client, provides JSON RPC endpoints over HTTP transports. Use `n42 --help` for options. |
 
 
-## n42 ports
+## Network Ports
 
-| Port  | Protocol |         Purpose          |       Expose       |
-|:-----:|:--------:|:------------------------:|:------------------:|
-| 61015 |   UDP    | The port used by discv5. |       Public       |
-| 61016 |   TCP    | The port used by libp2p. |       Public       |
-| 20012 |   TCP    |      Json rpc/HTTP       |       Public       |
-| 20013 |   TCP    |    Json rpc/Websocket    |       Public       |
-| 20014 |   TCP    | Json rpc/HTTP/Websocket  | JWT Authentication |
-| 4000  |   TCP    |   BlockChain Explorer    |       Public       |
-| 6060  |   TCP    |         Metrics          |      Private       | 
-| 6060  |   TCP    |          Pprof           |      Private       | 
+| Port  | Protocol | Purpose                      | Exposure            |
+|-------|----------|------------------------------|---------------------|
+| 61015 | UDP      | Discovery v5                 | Public              |
+| 61016 | TCP      | libp2p Communication         | Public              |
+| 20012 | TCP      | JSON RPC over HTTP           | Public              |
+| 20013 | TCP      | JSON RPC over Websocket      | Public              |
+| 20014 | TCP      | Secure JSON RPC (JWT Auth)   | Authenticated       |
+| 4000  | TCP      | Blockchain Explorer          | Public              |
+| 6060  | TCP      | Metrics & Profiling (pprof)  | Private             |
 
 ## License
 The N42 library is licensed under the
