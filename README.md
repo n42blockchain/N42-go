@@ -16,14 +16,12 @@ With its modular and sharded architecture, N42 provides advanced transaction thr
 
 **Disclaimer:** This software is currently a tech preview. We will do our best to keep it stable and avoid breaking changes, but we make no guarantees.
 
-
 ## System Requirements
 
 - **Storage**: ≥ 200 GB (SSD or NVMe recommended; HDD not recommended)
 - **Memory**: ≥ 16 GB RAM
 - **CPU**: 64-bit architecture
 - **Go Version**: [≥ 1.19](https://golang.org/doc/install)
-
 
 ## Building from Source
 
@@ -35,15 +33,6 @@ To build N42 from source, you must have the latest version of Go installed.
 - Download Go: [Go download page](https://golang.org/dl/)
 
 Clone the repository and compile:
-
-
-```sh
-git clone https://github.com/N42world/n42.git
-cd n42
-make n42
-./build/bin/n42
-```
-
 
 ```sh
 git clone https://github.com/N42world/n42.git
@@ -62,6 +51,11 @@ Windows users may run N42 in three ways:
     - Install and build as on Linux
     - Ensure storage is on Linux filesystem for best performance
 
+### Docker Container
+
+Docker allows easy building and running without installing dependencies on the host OS.
+
+See: [docker-compose.yml](./docker-compose.yml), [Dockerfile](./Dockerfile)
 
 Convenient Docker commands:
 
@@ -81,7 +75,6 @@ N42 includes one main executable located in the `cmd` directory:
 |---------|-------------|
 | **`n42`** | Main CLI client, provides JSON RPC endpoints over HTTP transports. Use `n42 --help` for options. |
 
-
 ## Network Ports
 
 | Port  | Protocol | Purpose                      | Exposure            |
@@ -93,12 +86,8 @@ N42 includes one main executable located in the `cmd` directory:
 | 20014 | TCP      | Secure JSON RPC (JWT Auth)   | Authenticated       |
 | 4000  | TCP      | Blockchain Explorer          | Public              |
 | 6060  | TCP      | Metrics & Profiling (pprof)  | Private             |
+
 ## License
 
 N42 is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
-
-
-## License
-The N42 library is licensed under the
-[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
