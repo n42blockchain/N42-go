@@ -93,6 +93,10 @@ N42 includes one main executable located in the `cmd` directory:
 | 20014 | TCP      | Secure JSON RPC (JWT Auth)   | Authenticated       |
 | 4000  | TCP      | Blockchain Explorer          | Public              |
 | 6060  | TCP      | Metrics & Profiling (pprof)  | Private             |
+## License
+
+N42 is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
 
 ## License
 The N42 library is licensed under the
