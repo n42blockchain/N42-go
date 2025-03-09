@@ -1,5 +1,12 @@
 # N42 Blockchain
 
+[![Go](https://img.shields.io/badge/go-1.19%2B-blue.svg)](https://golang.org)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/n42world/n42/ci.yml?branch=main)](https://github.com/n42world/n42/actions)
+[![GitHub License](https://img.shields.io/github/license/n42world/n42)](https://github.com/n42world/n42/blob/main/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/n42world/n42)](https://github.com/n42world/n42/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/n42world/n42)](https://github.com/n42world/n42/pulls)
+[![GitHub Stars](https://img.shields.io/github/stars/n42world/n42)](https://github.com/n42world/n42/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/n42world/n42)](https://github.com/n42world/n42/network/members)
 N42 (N) is an implementation of a public blockchain on the efficiency frontier, written in Go.
 
 **Disclaimer: This software is currently a tech preview. We will do our best to keep it stable and avoid breaking changes, but we make no guarantees. **
