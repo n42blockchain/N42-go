@@ -31,9 +31,10 @@ With its modular and sharded architecture, N42 provides advanced transaction thr
 
 To build N42 from source, you must have the latest version of Go installed.
 
-To build N42 from source, you'll need the latest version of Go installed, as N42 is written in Go.  
-You can find installation instructions on the [Go installation page](https://golang.org/doc/install), and download the required bundles from the [Go download page](https://golang.org/dl/).  
-Clone the repository to your local environment. After cloning, run `make n42` to configure everything for a temporary build, which will automatically clean up afterward.  
+- Installation instructions: [Go installation page](https://golang.org/doc/install)
+- Download Go: [Go download page](https://golang.org/dl/)
+
+Clone the repository and compile:
 
 **Note:** This build method is only supported on UNIX-like operating systems.
 
