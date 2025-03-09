@@ -36,7 +36,6 @@ To build N42 from source, you must have the latest version of Go installed.
 
 Clone the repository and compile:
 
-**Note:** This build method is only supported on UNIX-like operating systems.
 
 ```sh
 git clone https://github.com/N42world/n42.git
@@ -44,6 +43,7 @@ cd n42
 make n42
 ./build/bin/n42
 ```
+
 ### Windows
 
 Windows users may run n42 in 3 possible ways:
