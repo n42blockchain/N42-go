@@ -14,7 +14,7 @@ N42 introduces a secure, efficient, and globally interconnected digital ecosyste
 
 With its modular and sharded architecture, N42 provides advanced transaction throughput and data processing capabilities, critical for developing a globally connected digital infrastructure. Its permissionless design facilitates seamless integration and efficient data exchange across diverse application environments, laying the foundation for the next generation of decentralized internet services.
 
-**Disclaimer: This software is currently a tech preview. We will do our best to keep it stable and avoid breaking changes, but we make no guarantees. **
+**Disclaimer:** This software is currently a tech preview. We will do our best to keep it stable and avoid breaking changes, but we make no guarantees.
 
 ## System Requirements  
 
