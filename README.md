@@ -73,22 +73,13 @@ make start  # docker-compose start && docker-compose logs -f
 make stop   # docker-compose stop
 ```
 
-```sh
-make images # build docker images than contain executable n42 binaries
-make up # alias for docker-compose up -d && docker-compose logs -f 
-make down # alias for docker-compose down && clean docker data
-make start #  alias for docker-compose start && docker-compose logs -f 
-make stop # alias for docker-compose stop
-```
-
 ## Executables
 
-The N42 project comes with one wrappers/executables found in the `cmd`
-directory.
+N42 includes one main executable located in the `cmd` directory:
 
-|    Command    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| :-----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  **`N42`**   | Our main N42 CLI client.  It can be used by other processes as a gateway into the N42 network via JSON RPC endpoints exposed on top of HTTP transports. `N42 --help`  for command line options.          |
+| Command | Description |
+|---------|-------------|
+| **`n42`** | Main CLI client, provides JSON RPC endpoints over HTTP transports. Use `n42 --help` for options. |
 
 
 ## n42 ports
