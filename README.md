@@ -25,10 +25,11 @@ With its modular and sharded architecture, N42 provides advanced transaction thr
 - **Go Version**: [≥ 1.19](https://golang.org/doc/install)
 
 
-## Build from source code
-For building the latest alpha release (this will be suitable for most users just wanting to run a node):
+## Building from Source
 
-### Most Linux systems and macOS
+### Linux and macOS
+
+To build N42 from source, you must have the latest version of Go installed.
 
 To build N42 from source, you'll need the latest version of Go installed, as N42 is written in Go.  
 You can find installation instructions on the [Go installation page](https://golang.org/doc/install), and download the required bundles from the [Go download page](https://golang.org/dl/).  
