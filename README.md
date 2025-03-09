@@ -63,13 +63,16 @@ Windows users may run N42 in three ways:
     - Ensure storage is on Linux filesystem for best performance
 
 
-### Docker Container
+Convenient Docker commands:
 
-Docker allows easy building and running without installing dependencies on the host OS.
+```sh
+make images # Build Docker images containing N42 binaries
+make up     # docker-compose up -d && docker-compose logs -f
+make down   # docker-compose down && clean docker data
+make start  # docker-compose start && docker-compose logs -f
+make stop   # docker-compose stop
+```
 
-See: [docker-compose.yml](./docker-compose.yml), [Dockerfile](./Dockerfile)
-
-For convenience we provide the following commands:
 ```sh
 make images # build docker images than contain executable n42 binaries
 make up # alias for docker-compose up -d && docker-compose logs -f 
