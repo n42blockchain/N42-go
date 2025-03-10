@@ -1,12 +1,12 @@
 # N42 Blockchain
 
 [![Go](https://img.shields.io/badge/go-1.19%2B-blue.svg)](https://golang.org)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/n42world/n42/ci.yml?branch=main)](https://github.com/n42world/n42/actions)
-[![GitHub License](https://img.shields.io/github/license/n42world/n42)](https://github.com/n42world/n42/blob/main/LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/n42world/n42)](https://github.com/n42world/n42/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/n42world/n42)](https://github.com/n42world/n42/pulls)
-[![GitHub Stars](https://img.shields.io/github/stars/n42world/n42)](https://github.com/n42world/n42/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/n42world/n42)](https://github.com/n42world/n42/network/members)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/n42blockchain/n42/ci.yml?branch=main)](https://github.com/n42blockchain/n42/actions)
+[![GitHub License](https://img.shields.io/github/license/n42blockchain/n42)](https://github.com/n42blockchain/n42/blob/main/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/n42blockchain/n42)](https://github.com/n42blockchain/n42/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/n42blockchain/n42)](https://github.com/n42blockchain/n42/pulls)
+[![GitHub Stars](https://img.shields.io/github/stars/n42blockchain/n42)](https://github.com/n42blockchain/n42/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/n42blockchain/n42)](https://github.com/n42blockchain/n42/network/members)
 
 ## Introduction
 
@@ -35,7 +35,7 @@ To build N42 from source, you must have the latest version of Go installed.
 Clone the repository and compile:
 
 ```sh
-git clone https://github.com/N42world/n42.git
+git clone https://github.com/n42blockchain/n42.git
 cd n42
 make n42
 ./build/bin/n42
